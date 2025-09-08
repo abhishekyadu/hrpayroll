@@ -1,0 +1,11 @@
+
+<suite name="OrangeHRM_BDD_Suite" verbose="1" parallel="false">
+
+    <test name="Cucumber Test Execution">
+        <classes>
+            <!-- This is our Cucumber TestNG Runner -->
+            <class name="runners.TestRunner"/>
+        </classes>
+    </test>
+
+</suite>
